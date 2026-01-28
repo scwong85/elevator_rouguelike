@@ -275,3 +275,105 @@ button,
     max-width: 480px;
   }
 }
+
+/* Full screen, no scroll */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;  /* NO SCROLLING */
+  background: radial-gradient(circle at top, #1b1324 0, #050712 60%);
+  color: var(--text-main);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  touch-action: manipulation;  /* smoother mobile taps */
+}
+
+#app-root {
+  width: 100vw;
+  height: 100vh;
+  max-width: none;  /* full viewport width */
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: fixed;  /* locked to viewport */
+  top: 0;
+  left: 0;
+}
+
+/* All screens: full height, no scroll */
+.screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Start screen: full viewport */
+.screen-start {
+  background-size: cover;
+  background-position: center;
+  border-radius: 0;  /* full screen */
+  overflow: hidden;
+  box-shadow: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+.screen-start .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  padding: 24px 18px 28px;
+  background: linear-gradient(
+    to top,
+    rgba(3, 4, 15, 0.98),
+    rgba(3, 4, 15, 0.2)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+/* Game screen: full height */
+.screen-game {
+  padding: 16px;
+  gap: 16px;
+  justify-content: flex-start;
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+
+/* Summary screen: full height with scrollable content if needed */
+.screen-summary {
+  padding: 16px;
+  justify-content: flex-start;
+  overflow-y: auto;  /* only this one scrolls if content overflows */
+  padding-top: 24px;
+}
+
+/* Lock progress bar to top */
+.progress-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 6px;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+}
+
+/* Max content width for readability */
+.content-container {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+}

@@ -2,12 +2,15 @@
 {% block content %}
 <div class="screen screen-start" style="background-image: url('{{ url_for('static', filename='img/start_elevator_lobby.png') }}');">
   <div class="overlay">
-    <h1 class="game-title">ELEVATOR TO SOMEWHERE</h1>
-    <p class="tagline">You pressed the top floor. Reality chose side quests.</p>
-    <form method="post" action="{{ url_for('start') }}">
-      <button type="submit" class="btn-primary">Start Ride</button>
-    </form>
-    <p class="small-print">Best experienced upright, like a real elevator.</p>
+    <div class="content-container">
+      <h1 class="game-title">ELEVATOR TO SOMEWHERE</h1>
+      <p class="tagline">You pressed the top floor. Reality chose side quests.</p>
+      <form method="post" action="{{ url_for('start') }}">
+        <button type="submit" class="btn-primary">Start Ride</button>
+      </form>
+      <p class="small-print">Best experienced upright, like a real elevator.</p>
+    </div>
   </div>
 </div>
+
 {% endblock %}
