@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="screen screen-game">
+  <div id="scenario-progress" class="progress-bar">
+    <div id="scenario-progress-fill"></div>
+  </div>
+
+  <div id="scenario-card" class="card hidden">
+    <div class="card-image-wrapper">
+      <img id="scenario-image" src="" alt="Scenario" class="card-image">
+    </div>
+    <h2 id="scenario-title"></h2>
+    <p id="scenario-description"></p>
+    <div id="scenario-options" class="options"></div>
+  </div>
+
+  <div id="consequence-card" class="card hidden">
+    <div class="card-image-wrapper">
+      <img id="consequence-image" src="" alt="Consequence" class="card-image">
+    </div>
+    <h2 id="consequence-title"></h2>
+    <p id="consequence-text"></p>
+    <button id="consequence-next" class="btn-primary">Next floor</button>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/game.js') }}"></script>
+{% endblock %}

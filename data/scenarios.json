@@ -1,0 +1,247 @@
+[
+{
+    "id": "kid_and_pet_leash",
+    "title": "The Tragic Leash Cliffhanger",
+    "description": "The doors start to close as a kid rushes in. His tiny dog, Sir Wigglebottom, is still outside. The leash is caught between the doors, pulled taut like a cartoon physics experiment.",
+    "image": "scenario_kid_and_pet.png",
+    "options": [
+      {
+        "text": "Hit the door open button and gently pull the leash to bring Sir Wigglebottom in.",
+        "charisma": 2,
+        "karma": 3,
+        "weird": 0,
+        "consequence_title": "Hero of Wigglebottom",
+        "consequence_text": "You save the pup, the kid beams, and everyone silently agrees you are now elevator captain.",
+        "consequence_image": "consequence_pet_saved.png"
+      },
+      {
+        "text": "Shout 'Abort mission!' and grab the leash, but accidentally pull yourself halfway out.",
+        "charisma": 1,
+        "karma": 1,
+        "weird": 2,
+        "consequence_title": "Clumsy but Caring",
+        "consequence_text": "The dog is fine, you're slightly bruised, and the elevator now respects your chaotic energy.",
+        "consequence_image": "consequence_pet_awkward.png"
+      },
+      {
+        "text": "Do nothing. This is a physics problem for future adults.",
+        "charisma": -1,
+        "karma": -3,
+        "weird": 0,
+        "consequence_title": "Witness to Wigglebottom’s Woe",
+        "consequence_text": "The doors reopen automatically, the dog trots in unharmed, and the guilt hovers like elevator music.",
+        "consequence_image": "consequence_pet_lost.png"
+      }
+    ]
+  },
+  {
+    "id": "ryan_goslyn_scene",
+    "title": "Just Ben (Totally Original)",
+    "description": "The doors open and a man who looks suspiciously like a certain movie star steps in, humming 'I am just Ben, anywhere else I'd be a ten.'",
+    "image": "scenario_ryan_goslyn.png",
+    "options": [
+      {
+        "text": "Casually nod and say, 'Big fan of your… legally distinct work.'",
+        "charisma": 3,
+        "karma": 1,
+        "weird": 1,
+        "consequence_title": "Recognizing, Respectfully",
+        "consequence_text": "He winks and says, 'Thanks, I’m just Ben.' The entire elevator levels up in coolness.",
+        "consequence_image": "consequence_goslyn_friends.png"
+      },
+      {
+        "text": "Start humming along, perfectly in sync, full eye contact.",
+        "charisma": 2,
+        "karma": 0,
+        "weird": 3,
+        "consequence_title": "Duet of Questionable Choices",
+        "consequence_text": "Everyone else stares at the floor. Ben looks impressed and slightly afraid.",
+        "consequence_image": "consequence_goslyn_duet.png"
+      },
+      {
+        "text": "Press 'Door Open' and loudly announce, 'This elevator is for mortals only.'",
+        "charisma": -1,
+        "karma": -2,
+        "weird": 3,
+        "consequence_title": "Bouncer of the Vertical Realm",
+        "consequence_text": "He laughs, steps out dramatically, and the doors close on your power trip.",
+        "consequence_image": "consequence_goslyn_denied.png"
+      }
+    ]
+  },
+  {
+    "id": "coffee_flood",
+    "title": "The Great Coffee Quake",
+    "description": "A person walks in balancing a tray with four coffees. The elevator lurches slightly. Time slows. Destiny smells like espresso.",
+    "image": "scenario_coffee_flood.png",
+    "options": [
+      {
+        "text": "Grab the tray like an action hero and stabilize it.",
+        "charisma": 2,
+        "karma": 2,
+        "weird": 0,
+        "consequence_title": "Latte Guardian",
+        "consequence_text": "Not a single drop is spilled. You are briefly worshipped as a caffeine deity.",
+        "consequence_image": "consequence_coffee_saved.png"
+      },
+      {
+        "text": "Offer your empty tote bag as an emergency spill zone.",
+        "charisma": 1,
+        "karma": 3,
+        "weird": 1,
+        "consequence_title": "Bag of Sacrifice",
+        "consequence_text": "Your bag is now a mocha swamp, but the floor survives. Karma +10, bag -100.",
+        "consequence_image": "consequence_coffee_tote.png"
+      },
+      {
+        "text": "Press a random floor and step out before the physics happens.",
+        "charisma": -1,
+        "karma": -2,
+        "weird": 1,
+        "consequence_title": "Flight, Not Fight",
+        "consequence_text": "You escape the coffee tsunami, but you will always know what you did not do.",
+        "consequence_image": "consequence_coffee_escape.png"
+      }
+    ]
+  },
+  {
+    "id": "elevator_theremin",
+    "title": "The Elevator Theremin",
+    "description": "As the doors open, the muzak morphs into eerie sci‑fi sounds. A stranger waves their hands, insisting the elevator is actually a giant theremin.",
+    "image": "scenario_theremin.png",
+    "options": [
+      {
+        "text": "Join in and 'play' a duet, matching their movements.",
+        "charisma": 1,
+        "karma": 0,
+        "weird": 3,
+        "consequence_title": "Symphony of Confusion",
+        "consequence_text": "You both create haunting elevator music. Everyone else rethinks their life choices.",
+        "consequence_image": "consequence_theremin_duet.png"
+      },
+      {
+        "text": "Politely ask them to stop and suggest headphones.",
+        "charisma": 1,
+        "karma": 1,
+        "weird": -1,
+        "consequence_title": "Diplomatic De‑weirding",
+        "consequence_text": "They apologize and switch to humming softly. The tension resolves like a jazz chord.",
+        "consequence_image": "consequence_theremin_calm.png"
+      },
+      {
+        "text": "Pretend to be an elevator inspector and take notes on their 'performance'.",
+        "charisma": 0,
+        "karma": 0,
+        "weird": 3,
+        "consequence_title": "Performance Review",
+        "consequence_text": "They play even harder, convinced this is an audition. You’ve made a monster.",
+        "consequence_image": "consequence_theremin_audit.png"
+      }
+    ]
+  },
+  {
+    "id": "office_confession",
+    "title": "Accidental Group Therapy",
+    "description": "A coworker enters, sighs deeply, and says, 'Since we’re all here, I need to vent about the meeting.' Doors close. No escape.",
+    "image": "scenario_office_confession.png",
+    "options": [
+      {
+        "text": "Act as therapist, nodding and asking gentle follow‑up questions.",
+        "charisma": 2,
+        "karma": 2,
+        "weird": 0,
+        "consequence_title": "Elevator Counselor",
+        "consequence_text": "They feel better. You acquire unofficial emotional support responsibilities.",
+        "consequence_image": "consequence_office_therapist.png"
+      },
+      {
+        "text": "Start a 'talking stick' with the 'door open' button.",
+        "charisma": 1,
+        "karma": 1,
+        "weird": 2,
+        "consequence_title": "Open‑Door Policy",
+        "consequence_text": "Everyone shares. The elevator becomes a tiny, mildly effective support group.",
+        "consequence_image": "consequence_office_group.png"
+      },
+      {
+        "text": "Pretend you just remembered another floor and bail.",
+        "charisma": -1,
+        "karma": -2,
+        "weird": 0,
+        "consequence_title": "Emotional Evasion",
+        "consequence_text": "You avoid drama, but the coworker’s sigh echoes in your soul.",
+        "consequence_image": "consequence_office_escape.png"
+      }
+    ]
+  },
+  {
+    "id": "cat_in_suitcase",
+    "title": "Schröding‑ish Cat",
+    "description": "A traveler rushes in with a suitcase. A faint 'mrrp' sound comes from inside. They freeze. Everyone heard it.",
+    "image": "scenario_cat_suitcase.png",
+    "options": [
+      {
+        "text": "Gently ask if they also heard the 'mrrp' and offer help.",
+        "charisma": 1,
+        "karma": 3,
+        "weird": 0,
+        "consequence_title": "Cat‑astrophe Averted",
+        "consequence_text": "It’s their cat, accidentally zipped in. You help rescue it. The cat immediately ignores you.",
+        "consequence_image": "consequence_cat_saved.png"
+      },
+      {
+        "text": "Start meowing back in different tones to triangulate the cat.",
+        "charisma": 0,
+        "karma": 1,
+        "weird": 3,
+        "consequence_title": "Meowdical Procedure",
+        "consequence_text": "The cat meows, you meow, everyone accepts this now.",
+        "consequence_image": "consequence_cat_meow.png"
+      },
+      {
+        "text": "Stare straight ahead, pretending nothing is wrong with reality.",
+        "charisma": -1,
+        "karma": -2,
+        "weird": -1,
+        "consequence_title": "Denial Is a Floor",
+        "consequence_text": "The doors open; they rush off. The mystery cat lives only in your memory.",
+        "consequence_image": "consequence_cat_denial.png"
+      }
+    ]
+  },
+  {
+    "id": "ghost_fire_drill",
+    "title": "Ghost of Fire Drills Past",
+    "description": "The elevator stops at an empty floor. A faint alarm plays the wrong tune, like a fire drill remixed by a DJ.",
+    "image": "scenario_ghost_fire_drill.png",
+    "options": [
+      {
+        "text": "Suggest everyone exit and take the stairs, just in case.",
+        "charisma": 0,
+        "karma": 3,
+        "weird": -1,
+        "consequence_title": "Safety First, Fun Never",
+        "consequence_text": "You all take the stairs. It was a false alarm, but your calves level up.",
+        "consequence_image": "consequence_fire_stairs.png"
+      },
+      {
+        "text": "Joke that the building is just testing your cardio anxiety.",
+        "charisma": 2,
+        "karma": 0,
+        "weird": 1,
+        "consequence_title": "Cardio Comedian",
+        "consequence_text": "Tension breaks, people laugh, the elevator seems to approve.",
+        "consequence_image": "consequence_fire_joke.png"
+      },
+      {
+        "text": "Declare this floor cursed and mash the 'close doors' button.",
+        "charisma": -1,
+        "karma": -1,
+        "weird": 2,
+        "consequence_title": "Speedrun the Haunt",
+        "consequence_text": "The doors close. If there were ghosts, they are now mildly offended.",
+        "consequence_image": "consequence_fire_cursed.png"
+      }
+    ]
+  }
+]

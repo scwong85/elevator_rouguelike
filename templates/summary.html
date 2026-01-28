@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="screen screen-summary">
+  <div class="card">
+    <h1>Your Elevator Report</h1>
+    <p class="alignment">{{ alignment }}</p>
+
+    <div class="score-row">
+      <div class="score-chip">Charisma: {{ scores.charisma }}</div>
+      <div class="score-chip">Karma: {{ scores.karma }}</div>
+      <div class="score-chip">Weirdness: {{ scores.weird }}</div>
+    </div>
+
+    <h2>Floors you survived</h2>
+    <ul class="summary-list">
+      {% for item in detailed %}
+      <li class="summary-item">
+        <h3>{{ item.scenario_title }}</h3>
+        <p class="summary-desc">{{ item.scenario_description }}</p>
+        <p class="summary-choice">You chose: <strong>{{ item.option_text }}</strong></p>
+        {% if item.player_percent is not none %}
+          <p class="summary-stats">
+            You made the same choice as about {{ item.player_percent|round(1) }}% of players.
+          </p>
+        {% else %}
+          <p class="summary-stats">
+            You are among the first brave souls to make that choice.
+          </p>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+
+    <a href="{{ url_for('index') }}" class="btn-primary full-width">Ride again</a>
+  </div>
+</div>
+{% endblock %}
