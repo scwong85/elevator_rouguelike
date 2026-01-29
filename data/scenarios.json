@@ -243,5 +243,285 @@
         "consequence_image": "consequence_fire_cursed.png"
       }
     ]
+  },
+  {
+    "id": "elevator_book_club",
+    "title": "Pop‑Up Book Club",
+    "description": "Someone steps in holding a book you love and sighs, 'No one I know has read this.'",
+    "image": "scenario_book_club.png",
+    "options": [
+      {
+        "text": "Excitedly say, 'I have!' and start a 30‑second speed review.",
+        "charisma": 3,
+        "karma": 1,
+        "weird": 0,
+        "consequence_title": "Literary Soulmate (Briefly)",
+        "consequence_text": "You bond instantly. The elevator becomes a tiny book club.",
+        "consequence_image": "consequence_book_bond.png"
+      },
+      {
+        "text": "Ask them what they like about it and just listen.",
+        "charisma": 1,
+        "karma": 2,
+        "weird": 0,
+        "consequence_title": "Elevator Listener",
+        "consequence_text": "They light up. You earn social XP without spoilers.",
+        "consequence_image": "consequence_book_listen.png"
+      },
+      {
+        "text": "Lean over to read the blurb silently like a book ninja.",
+        "charisma": 0,
+        "karma": 0,
+        "weird": 2,
+        "consequence_title": "Blurb Lurker",
+        "consequence_text": "You get the gist. They definitely notice. You pretend they don’t.",
+        "consequence_image": "consequence_book_lurk.png"
+      }
+    ]
+  },
+  {
+    "id": "magic_floor_button",
+    "title": "The Extra Button",
+    "description": "You notice a button that shouldn’t exist: Floor ∞. It glows softly. No one else seems to react.",
+    "image": "scenario_magic_floor.png",
+    "options": [
+      {
+        "text": "Press it without hesitation. Chaos speedrun.",
+        "charisma": 0,
+        "karma": -1,
+        "weird": 4,
+        "consequence_title": "Infinite Vibes",
+        "consequence_text": "The panel flickers, then everything returns to normal. Or did it?",
+        "consequence_image": "consequence_magic_pressed.png"
+      },
+      {
+        "text": "Ask if anyone else sees the extra button.",
+        "charisma": 1,
+        "karma": 1,
+        "weird": 2,
+        "consequence_title": "Shared Hallucination",
+        "consequence_text": "Half say no, half say yes. You have accidentally formed a cult or a group chat.",
+        "consequence_image": "consequence_magic_shared.png"
+      },
+      {
+        "text": "Pretend you did not see it. That feels safer.",
+        "charisma": 0,
+        "karma": 0,
+        "weird": -1,
+        "consequence_title": "Quantum Cowardice",
+        "consequence_text": "You remain in the normal elevator narrative. Probably.",
+        "consequence_image": "consequence_magic_ignored.png"
+      }
+    ]
+  },
+  {
+    "id": "impromptu_dance_break",
+    "title": "Elevator Dance Break",
+    "description": "The music suddenly switches to an upbeat track. A stranger starts doing tiny, contained dance moves.",
+    "image": "scenario_dance_break.png",
+    "options": [
+      {
+        "text": "Join with subtle shoulder shimmies.",
+        "charisma": 2,
+        "karma": 1,
+        "weird": 1,
+        "consequence_title": "Micro‑Choreography",
+        "consequence_text": "Soon half the elevator is doing micro‑dances. Morale increases by 10%.",
+        "consequence_image": "consequence_dance_group.png"
+      },
+      {
+        "text": "Go full dance battle. No half‑measures.",
+        "charisma": 2,
+        "karma": 0,
+        "weird": 3,
+        "consequence_title": "Boss Battle in a Box",
+        "consequence_text": "You win the invisible trophy. The doors open to a stunned audience outside.",
+        "consequence_image": "consequence_dance_battle.png"
+      },
+      {
+        "text": "Stare at your phone like nothing is happening.",
+        "charisma": -1,
+        "karma": -1,
+        "weird": -1,
+        "consequence_title": "Fun Vacuum",
+        "consequence_text": "You remain unbothered, unmoved, and slightly less interesting.",
+        "consequence_image": "consequence_dance_ignore.png"
+      }
+    ]
+  },
+  {
+    "id": "too_much_perfume",
+    "title": "Fog of Fragrance",
+    "description": "Someone enters trailing a cloud of perfume so dense it could be classified as weather.",
+    "image": "scenario_perfume_cloud.png",
+    "options": [
+      {
+        "text": "Crack a window that does not exist by pantomiming dramatically.",
+        "charisma": 2,
+        "karma": 0,
+        "weird": 2,
+        "consequence_title": "Imaginary Ventilation",
+        "consequence_text": "People giggle, and somehow it does feel easier to breathe.",
+        "consequence_image": "consequence_perfume_mime.png"
+      },
+      {
+        "text": "Offer them a compliment on the scent, then discreetly face the corner.",
+        "charisma": 1,
+        "karma": 1,
+        "weird": 0,
+        "consequence_title": "Polite Suffering",
+        "consequence_text": "They smile. Your lungs file a complaint, but your manners win.",
+        "consequence_image": "consequence_perfume_polite.png"
+      },
+      {
+        "text": "Loudly ask if anyone else is tasting flowers.",
+        "charisma": 0,
+        "karma": -1,
+        "weird": 2,
+        "consequence_title": "Scent Roast",
+        "consequence_text": "The air gets awkward, if not fresher.",
+        "consequence_image": "consequence_perfume_roast.png"
+      }
+    ]
+  },
+  {
+    "id": "late_night_snack",
+    "title": "Mystery Crunch",
+    "description": "At midnight, someone boards with a loud crunchy snack. Every bite echoes like a boss battle sound effect.",
+    "image": "scenario_midnight_snack.png",
+    "options": [
+      {
+        "text": "Ask what they’re eating and trade snack recommendations.",
+        "charisma": 2,
+        "karma": 1,
+        "weird": 0,
+        "consequence_title": "Snack Diplomacy",
+        "consequence_text": "You form a temporary snack alliance. Peace through chips.",
+        "consequence_image": "consequence_snack_alliance.png"
+      },
+      {
+        "text": "Chew imaginary food in sync to create a weird rhythm.",
+        "charisma": 0,
+        "karma": 0,
+        "weird": 3,
+        "consequence_title": "Perkussion Section",
+        "consequence_text": "You two accidentally invent elevator ASMR. Opinions are mixed.",
+        "consequence_image": "consequence_snack_asym.png"
+      },
+      {
+        "text": "Passive‑aggressively put on noise‑cancelling headphones with exaggerated motions.",
+        "charisma": -1,
+        "karma": -1,
+        "weird": 1,
+        "consequence_title": "Silent Judgment",
+        "consequence_text": "They get the hint. The crunching gets quieter, the tension louder.",
+        "consequence_image": "consequence_snack_headphones.png"
+      }
+    ]
+  },
+  {
+    "id": "matching_outfits",
+    "title": "Clone Outfit Moment",
+    "description": "You and a stranger are wearing almost the exact same outfit. Everyone notices at the same time.",
+    "image": "scenario_matching_outfits.png",
+    "options": [
+      {
+        "text": "Say, 'One of us has to change floors.'",
+        "charisma": 2,
+        "karma": 0,
+        "weird": 1,
+        "consequence_title": "Mirror Universe Joke",
+        "consequence_text": "They laugh. The elevator becomes your shared runway.",
+        "consequence_image": "consequence_outfits_joke.png"
+      },
+      {
+        "text": "High‑five them and declare it a team uniform.",
+        "charisma": 3,
+        "karma": 1,
+        "weird": 1,
+        "consequence_title": "Team Vibes",
+        "consequence_text": "Others assume you work together at a very fun company.",
+        "consequence_image": "consequence_outfits_team.png"
+      },
+      {
+        "text": "Slowly turn so your outfits are never fully in the same frame.",
+        "charisma": 0,
+        "karma": 0,
+        "weird": 2,
+        "consequence_title": "Stealth Desync",
+        "consequence_text": "You successfully avoid acknowledgment. At what cost?",
+        "consequence_image": "consequence_outfits_avoid.png"
+      }
+    ]
+  },
+  {
+    "id": "motivational_poster_floor",
+    "title": "Live, Laugh, Lift",
+    "description": "The elevator doors open onto a floor that seems to be only motivational posters and plants. No people. Just vibes.",
+    "image": "scenario_motivational_floor.png",
+    "options": [
+      {
+        "text": "Step out, take a deep breath, and read one poster dramatically.",
+        "charisma": 1,
+        "karma": 1,
+        "weird": 1,
+        "consequence_title": "Affirmation Break",
+        "consequence_text": "You gain +1 temporary optimism. The doors wait patiently.",
+        "consequence_image": "consequence_motivational_read.png"
+      },
+      {
+        "text": "Convince everyone to do a 10‑second group power pose.",
+        "charisma": 3,
+        "karma": 1,
+        "weird": 2,
+        "consequence_title": "Group Buff",
+        "consequence_text": "Confidence rises. Someone actually thanks you for the mini‑ritual.",
+        "consequence_image": "consequence_motivational_pose.png"
+      },
+      {
+        "text": "Press 'close' repeatedly, whispering 'not today, fonts.'",
+        "charisma": 0,
+        "karma": 0,
+        "weird": 2,
+        "consequence_title": "Anti‑Motivational Speedrun",
+        "consequence_text": "You return to your regularly scheduled chaos.",
+        "consequence_image": "consequence_motivational_skip.png"
+      }
+    ]
+  },
+  {
+    "id": "lost_delivery_robot",
+    "title": "The Confused Delivery Bot",
+    "description": "A tiny delivery robot rolls into the elevator, chirps 'RECALCULATING,' and spins in place.",
+    "image": "scenario_delivery_robot.png",
+    "options": [
+      {
+        "text": "Read its label and help it get to the right floor.",
+        "charisma": 1,
+        "karma": 3,
+        "weird": 0,
+        "consequence_title": "Beep Boop Buddy",
+        "consequence_text": "The bot beeps 'THANK YOU ORGANIC' and rolls out heroically.",
+        "consequence_image": "consequence_robot_helped.png"
+      },
+      {
+        "text": "Teach it to say 'elevator acquired' before leaving.",
+        "charisma": 2,
+        "karma": 1,
+        "weird": 2,
+        "consequence_title": "Patch Notes: Personality",
+        "consequence_text": "You upgrade its catchphrase. Future riders will know you were here.",
+        "consequence_image": "consequence_robot_phrase.png"
+      },
+      {
+        "text": "Gently spin it and let destiny decide its floor.",
+        "charisma": 0,
+        "karma": -1,
+        "weird": 3,
+        "consequence_title": "Chaos Routing",
+        "consequence_text": "It seems delighted. Logistics, less so.",
+        "consequence_image": "consequence_robot_random.png"
+      }
+    ]
   }
 ]
